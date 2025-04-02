@@ -23,7 +23,7 @@ import json
 import shutil
 from typing import Dict, List, Any, Optional, Tuple
 import difflib
-
+# from main import show_new_user_screen
 
 class HomeScreen(QWidget):
     """Home screen widget"""
@@ -80,6 +80,7 @@ class NewUserScreen(QWidget):
         self.id_proof_path = None
         self.ocr_processor = OCRProcessor()
         self.init_ui()
+        
     
     def init_ui(self):
         """Initialize the UI components"""
@@ -292,8 +293,11 @@ class NewUserScreen(QWidget):
         
         # Disable child registration form and button
         self.register_child_btn.setEnabled(False)
-        for i in range(child_form.rowCount()):
-            child_form.itemAt(i, QFormLayout.FieldRole).widget().setEnabled(False)
+        # for i in range(self.child_form.rowCount()):
+        #     self.child_form.itemAt(i, QFormLayout.FieldRole).widget().setEnabled(False)
+            
+        # Reset child form for additional registrations
+        self.child_name_input.clear()            
     
     def register_parent(self):
         """Register a parent for the current child"""
@@ -388,6 +392,38 @@ class NewUserScreen(QWidget):
         self.ocr_text_label.setText("OCR Text will appear here")
         self.register_parent_btn.setEnabled(False)
 
+        
+    def reset_form(self):
+        """Reset all fields in the New User Registration screen"""
+        # Reset child fields
+        self.child_name_input.clear()
+        self.child_age_input.setValue(1)
+        self.child_school_input.clear()
+        self.child_class_input.clear()
+        self.child_section_input.clear()
+        self.child_image_path = None
+        self.child_photo_label.setText("No photo selected")
+    
+        # Reset parent fields
+        self.parent_name_input.clear()
+        self.parent_age_input.setValue(30)
+        self.parent_relationship_input.setCurrentIndex(0)
+        self.parent_image_path = None
+        self.id_proof_path = None
+        self.parent_photo_label.setText("No photo selected")
+        self.id_proof_label.setText("No ID proof selected")
+        self.ocr_text_label.setText("OCR Text will appear here")
+    
+        # Disable parent form and register button
+        self.parent_group.setEnabled(False)
+        self.register_parent_btn.setEnabled(False)
+    
+        # Reset status label
+        self.status_label.setText("")
+        
+        # Re-enable child registration
+        self.register_child_btn.setEnabled(True)
+    
 
 class CameraThread(QThread):
     """Thread for camera capture to avoid UI blocking"""
@@ -658,7 +694,7 @@ class ScanCardScreen(QWidget):
             for parent in child["parents"]:
                 stored_ocr_text = parent["ocr_text"]
                 # print(stored_ocr_text)
-                print(f"Comparing {ocr_text} with {stored_ocr_text}")
+                # print(f"Comparing {ocr_text} with {stored_ocr_text}")
                 if check_similarity(ocr_text, stored_ocr_text):
                     match = (child, parent)
                     break

@@ -113,6 +113,7 @@ class MainWindow(QMainWindow):
     
     def show_new_user_screen(self):
         """Show the new user registration screen"""
+        self.new_user_screen.reset_form()
         self.stacked_widget.setCurrentWidget(self.new_user_screen)
     
     def show_scan_card_screen(self):
