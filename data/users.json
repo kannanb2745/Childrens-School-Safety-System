@@ -1,79 +1,23 @@
 {
   "children": [
     {
-      "id": "1743611071_nila",
-      "name": "nila",
-      "age": 1,
-      "school": "ghss",
-      "class": "pre kg",
+      "id": "1743654881_Jhon",
+      "name": "Jhon",
+      "age": 3,
+      "school": "Primary Kinder Garden",
+      "class": "3",
       "section": "A",
-      "image_path": "images/1743611071_nila/child.jpeg",
+      "image_path": "images/1743654881_Jhon/child.jpeg",
       "parents": [
         {
-          "name": "KANNAN B",
-          "age": 30,
-          "relationship": "Relative",
-          "image_path": "images/1743611071_nila/parent_KANNAN_B.jpeg",
-          "id_proof_path": "images/1743611071_nila/id_proof_KANNAN_B.jpeg",
-          "ocr_text": "J25uUu 5726\n\n. eg - \u00bb\n\nue Yate Validity *s eer ety oO\n\n= 31-01-2025 26-04-2045\n\n31-01-2025\n\n3\nName: ees Tae z\nKANNAN B oe re - =\nDate of Birth: 27-04-2005 Blo\u00e9d Group: O+ C\nSon/Daughter/Wife of: c\nBASKAR R\nAddress:\n\nNO 1/2257 STH CROSS STREET SOLAIAMIGAN NAGAR REDHILLS"
-        },
-        {
-          "name": "BASkAR",
-          "age": 28,
-          "relationship": "Mother",
-          "image_path": "images/1743611071_nila/parent_BASkAR.jpeg",
-          "id_proof_path": "images/1743611071_nila/id_proof_BASkAR.jpeg",
-          "ocr_text": "OsOu: earache\nGovernment of India\n\nLITT. CBOT GODT GOT\n\n4 B.Kannan\n\n5 (G15 nen /DOB: 27/04/2005\na <24,6001/ MALE\n\n8 9092750468\n\n6363 2158 6995\n\nSTOUT SI NLD. svresrgy Mewi_\n\nPhew sehsu sewer BMewu snw01Yy\n\n_ Unique Identification Authority of India \u2018TON\n\n\u2018 \u2014 \"3/2287, Sug Gnss, Asim,\n2 Si en Bie), Gareneoudiben Ba,\n\noa acc gig HAST eI,\nFeud bh - 600052 \u00a9\n\n\u00aeC/O Baskar, 1/2257, Sth Cross Street,\n\n2 Aattanthangal, Solatamman Nagar, Redhills,\n? Tiruvallur,\n\nETamil Nadu - 600052\n\n3\n\n6363 2158 6995\n\nGe 1067\n\n\u2014\u2014\u2014___\n\n| C3] help @uidai.gov.in"
-        }
-      ]
-    },
-    {
-      "id": "1743611932_dadasd",
-      "name": "dadasd",
-      "age": 11,
-      "school": "svddvsdvsv",
-      "class": "svfsfv",
-      "section": "sfvfsfv",
-      "image_path": "images/1743611932_dadasd/child.jpeg",
-      "parents": [
-        {
-          "name": "kwrjryh",
-          "age": 30,
+          "name": "Harvery Specter",
+          "age": 27,
           "relationship": "Father",
-          "image_path": "images/1743611932_dadasd/parent_kwrjryh.jpeg",
-          "id_proof_path": "images/1743611932_dadasd/id_proof_kwrjryh.jpeg",
+          "image_path": "images/1743654881_Jhon/parent_Harvery_Specter.png",
+          "id_proof_path": "images/1743654881_Jhon/id_proof_Harvery_Specter.jpeg",
           "ocr_text": "J25uUu 5726\n\n. eg - \u00bb\n\nue Yate Validity *s eer ety oO\n\n= 31-01-2025 26-04-2045\n\n31-01-2025\n\n3\nName: ees Tae z\nKANNAN B oe re - =\nDate of Birth: 27-04-2005 Blo\u00e9d Group: O+ C\nSon/Daughter/Wife of: c\nBASKAR R\nAddress:\n\nNO 1/2257 STH CROSS STREET SOLAIAMIGAN NAGAR REDHILLS"
         }
       ]
-    },
-    {
-      "id": "1743612195_fafsef",
-      "name": "fafsef",
-      "age": 1,
-      "school": "efewfw",
-      "class": "efawef",
-      "section": "SEFasef",
-      "image_path": "images/1743612195_fafsef/child.png",
-      "parents": [
-        {
-          "name": "edfswfdwsef",
-          "age": 30,
-          "relationship": "Father",
-          "image_path": "images/1743612195_fafsef/parent_edfswfdwsef.jpg",
-          "id_proof_path": "images/1743612195_fafsef/id_proof_edfswfdwsef.jpg",
-          "ocr_text": "Details as on 22/12/2024\n\n=m\n\n(Ipaculfl: LIMES, 1/2257, SOB\nQs, Sl_-LHStmsed, |\nCereneouLDLOsT Hai, Qemugemmud.\nHcmeucrceny, Sup mTG, 600052\nAddress: C/O Baskar, 1/2257, 9th Cross Street,\nAattanthangal, Solaiamman Nagar, Redhills,\nPO:Red Hills, DIST:Tiruvallur, Tamil Nadu,\n\n600052\n\n\u201cs\n\n[DX] help@uidai.gov.in\n\n6363 2158 6995\n\na Pla aE NCAA ET to) \u201c"
-        }
-      ]
-    },
-    {
-      "id": "1743612285_adadf",
-      "name": "adadf",
-      "age": 1,
-      "school": "dfadf",
-      "class": "aDfaDf",
-      "section": "afeaef",
-      "image_path": "images/1743612285_adadf/child.jpg",
-      "parents": []
     }
   ]
 }
